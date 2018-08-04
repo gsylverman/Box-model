@@ -1,0 +1,56 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background: lightblue;
+
+}
+.boxes{
+text-align: center;
+  color: white;
+  background: silver;
+  width: 800px;
+  margin: auto;
+  position: relative;
+  height: 200px;
+}
+.box{
+  padding: 20px;
+  border:2px solid black;
+  width:200px;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+left:33%;
+
+}
+.box1{
+  background: red;
+  height: 100px;
+  top:100px;
+
+}
+.box2{
+  background: green;
+  height: 100px;
+  top:200px;
+}
+.box3{
+  height: 100px;
+  top:300px;
+  background: blue;
+}
+.box4{
+  background: silver;
+  height: 100px;
+  top:400px;
+
+}
+.box5{
+  background: gold;
+  height: 100px;
+  top:500px;
+
+}
